@@ -11,20 +11,10 @@ public class ArgMethod {
 
         int age = 33;
 
-        ArgMethod.hello(null);
-
-        ArgMethod.hello(name);
-
-        ArgMethod.hello(age);
-
-        ArgMethod.hello(name, name, name);
+        hello(name, age);
     }
 
-    private static void hello(String name, String name1, String name2) {
-    }
 
-    private static void hello(Object o) {
-    }
 }
 
 
