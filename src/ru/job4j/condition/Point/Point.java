@@ -4,14 +4,8 @@ import ru.job4j.Main;
 
 public class Point {
     public static double distance(int x1, int y1, int x2, int y2) {
-       double aс = x2 - x1;
-       double сb = y2 - y1;
-       double ac = Math.pow(x2, x1);
-       double cb = Math.pow(y2, y1);
-       double c = ac + cb;
-       double d = Math.sqrt(c);
-       double rsl = d;
-       return rsl;
+        double rsl = Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+        return rsl;
     }
 
     public static void main(String[] args) {
