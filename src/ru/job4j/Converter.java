@@ -14,17 +14,17 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        double euro = 1.0 / 70.0;
-        int value1 = 1;
+        int euro = Converter.rubleToEuro(140);
+        int dollar =  Converter.rubleToDollar(240);
 
-        double dol = 1.0 / 60.0;
-        int value2 = 1;
-        System.out.println(" euro = " + euro);
-        System.out.println("dol = " + dol);
+        System.out.println("140 rubles are " + euro + " euro.");
+        System.out.println("240 rubles are " + dollar + " dollara.");
 
+
+        }
 
     }
-}
+
 
 
 
