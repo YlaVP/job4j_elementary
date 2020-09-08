@@ -1,8 +1,9 @@
 package ru.job4j;
 
-public class Main {
-    public static void main(String [] args) {
+    public class Main {
 
-        System.out.println("Hello world");
+       public static void main(String[] args) {
+
+           System.out.println("Hello world");
     }
 }

@@ -1,4 +1,4 @@
-package ru.job4j.condition.Point;
+package ru.job4j.condition.point;
 
 public class TrgArea {
     public static double area(double a, double b, double c) {

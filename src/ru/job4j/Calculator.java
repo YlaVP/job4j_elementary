@@ -1,6 +1,5 @@
 package ru.job4j;
 
-
 public class Calculator {
 
         public static void plus(int hunder, int five) {
