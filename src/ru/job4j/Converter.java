@@ -19,6 +19,7 @@ public class Converter {
         System.out.println("240 rubles are " + dollar + " dollara.");
 
         }
+
     }
 
 
