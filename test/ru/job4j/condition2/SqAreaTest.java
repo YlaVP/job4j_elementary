@@ -1,12 +1,13 @@
 package ru.job4j.condition2;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-public class SqAreatest {
+import static org.junit.Assert.*;
+
+public class SqAreaTest {
 
     @Test
-
     public void square() {
         int expected = 162;
         int p = 6;
@@ -15,7 +16,7 @@ public class SqAreatest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void square2() {
         int expected = 1600;
         int p = 8;
@@ -24,7 +25,3 @@ public class SqAreatest {
         Assert.assertEquals(expected, out, 0.01);
     }
 }
-
-
-
-
