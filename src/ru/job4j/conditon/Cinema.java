@@ -3,7 +3,6 @@ package ru.job4j.conditon;
 public class Cinema {
     public static void permission(boolean allowByParent, boolean hasMoney) {
         boolean can = allowByParent && hasMoney;
-        String label = " ";
         if ( can ) {
             System.out.println("I can go to the cinema.");
         } else {
