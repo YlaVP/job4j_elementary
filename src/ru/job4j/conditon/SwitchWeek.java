@@ -3,35 +3,28 @@ package ru.job4j.conditon;
 public class SwitchWeek {
     public void nameOfDay(int day) {
         String name;
-        int mondey;
-        int tuesday;
-        int wednesday;
-        int thursday;
-        int friday;
-        int saturday;
-        int sunday;
-        switch (day) {
+               switch (day) {
             case 1:
-                mondey = 1;
+               name = "Mondey";               ;
                 break;
             case 2:
-                tuesday = 2;
+                name = "Tuesday";
                 break;
             case 3:
-                wednesday = 3;
+                name = "Wednesday";
                 break;
 
             case 4:
-                thursday = 4;
+                name = "Thursday";
                 break;
             case 5:
-                friday = 5;
+                name = "Friday";
                 break;
             case 6:
-                saturday = 6;
+               name = "Saturday";
                 break;
             case 7:
-                sunday = 7;
+                name = "Sunday";
                 break;
 
             default:
