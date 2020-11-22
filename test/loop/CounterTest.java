@@ -21,4 +21,6 @@ public class CounterTest {
         int expected = 18;
         assertThat(rsl, is(expected));
     }
+
+
 }
