@@ -1,7 +1,5 @@
-package loop;
+package ru.job4j.loop;
 
-
-import java.time.Month;
 
 public class Fitness {
     public static int calc(int ivan, int nik) {

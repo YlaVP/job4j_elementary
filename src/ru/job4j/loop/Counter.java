@@ -1,4 +1,4 @@
-package loop;
+package ru.job4j.loop;
 
 public class Counter {
 
@@ -15,10 +15,9 @@ public class Counter {
         int sum = 0;
         for (int i = start; i <= finish; i++) {
             if ( i % 2 == 0 ) {
-                sum = sum += i ;
+               int sum = sum += i ;
             }
-        }
-        return sum;
+                return sum;
     }
 
     public static void main(String[] args) {
