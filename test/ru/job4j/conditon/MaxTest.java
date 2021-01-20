@@ -5,6 +5,7 @@ import org.junit.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static sun.nio.cs.Surrogate.is;
 
+
 public class MaxTest {
 
     @Test
