@@ -5,13 +5,13 @@ import org.junit.Assert;
 public class Fit {
 
     public static double manWeight(short height) {
-        double rsl = (height - 100) * 1.15;
-        return rsl;
+        double resalt = (height - 100) * 1.15;
+        return resalt;
     }
 
     public static double womanWeight(short height) {
-        double rsl = (height - 110) * 1.15;
-        return rsl;
+        double resalt = (height - 110) * 1.15;
+        return resalt;
     }
 
     public static void main(String[] args) {

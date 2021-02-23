@@ -5,9 +5,9 @@ public class MultiMax {
 
         int temp = first > second ? first : second;
 
-        int rsl = temp > third ? temp : third;
+        int resalt = temp > third ? temp : third;
 
-        return rsl;
+        return resalt;
     }
 
 }

@@ -3,8 +3,6 @@ package ru.job4j.calculator;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class X2Test {
 
     @Test
@@ -14,7 +12,7 @@ public class X2Test {
         int c = 0;
         int x = 2;
         int expected = a * x * x + b * x + c;
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculator(a, b, c, x);
         System.out.println(rsl);
 
         Assert.assertEquals(expected, rsl);
@@ -27,7 +25,7 @@ public class X2Test {
         int c = 1;
         int x = 1;
         int expected = a * x * x + b * x + c;
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculator(a, b, c, x);
         System.out.println(rsl);
 
         Assert.assertEquals(expected, rsl);
@@ -40,7 +38,7 @@ public class X2Test {
         int c = 1;
         int x = 1;
         int expected = a * x * x + b * x + c;
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculator(a, b, c, x);
         System.out.println(rsl);
 
         Assert.assertEquals(expected, rsl);
@@ -53,7 +51,7 @@ public class X2Test {
         int c = 0;
         int x = 1;
         int expected = a * x * x + b * x + c;
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculator(a, b, c, x);
         System.out.println(rsl);
 
         Assert.assertEquals(expected, rsl);
@@ -67,7 +65,7 @@ public class X2Test {
         int c = 1;
         int x = 0;
         int expected = a * x * x + b * x + c;
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculator(a, b, c, x);
         System.out.println(rsl);
 
         Assert.assertEquals(expected, rsl);
