@@ -3,8 +3,9 @@ package ru.job4j.condition.point;
 import org.junit.jupiter.api.Test;
 import ru.job4j.condition.point.Point;
 
+import static java.awt.geom.Point2D.distance;
 import static org.junit.Assert.*;
-import static ru.job4j.condition.point.Point.distance;
+
 
 public class PointTest {
     @Test
@@ -17,6 +18,8 @@ public class PointTest {
         double out = distance(x1, y1, x2, y2);
         assertEquals(expected, out, 0.01);
     }
+
+
 
     @Test
     public void when11to10then1() {
