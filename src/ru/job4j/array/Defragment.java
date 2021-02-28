@@ -1,17 +1,29 @@
 package ru.job4j.array;
 
+
 public class Defragment {
 
-  public static String[] compress(String[] array) {
-    for (int index = 0; index < array.length; index++) {
-        if (array[index] == null) {
-            int point = index; /* указатель на null ячейку. */
-            /* переместить первую не null ячейку. Нужен цикл. */
+    public static String[] compress(String[] array) {
+        for (int index = 0; index < array.length; index++) {
+            if (array[index] == null) {
+                int point = index + 1; /* указатель на null ячейку. */
+                while (point < array.length && array[point] == null) {
+                    point++;
+                }
+                if (point < array.length) {
+                    swap(array, index, point);
+                }
+            }
         }
-        System.out.print(array[index] + " ");
+        return array;
     }
-    return array;
-}
+
+    public static String[] swap(String[] array, int nullIndex, int notNullIndex) {
+        String temp = array[notNullIndex];
+        array[notNullIndex] = array[nullIndex];
+        array[nullIndex] = temp;
+        return array;
+    }
 
     public static void main(String[] args) {
         String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
