@@ -11,8 +11,8 @@ public class Machine {
         for (int i = 0; i < coins.length; i++) {
             while (balans - coins[i] >= 0) {
                 balans -= coins[i];
-                rsl[size] = coins[i];
-                size++;
+                rsl[size++] = coins[i];
+
             }
 
         }
