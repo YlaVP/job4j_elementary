@@ -10,13 +10,14 @@ public class MagicBall {
         String question = input.nextLine();
         System.out.println(answer(new Random().nextInt(3)));
     }
-    public static String answer(int ans){
+
+    public static String answer(int ans) {
         String result = "Может быть";
         if (ans == 0) {
             result = "Да";
-        }  else if (ans == 1) {
-                result = "Нет";
-                    }
+        } else if (ans == 1) {
+            result = "Нет";
+        }
         return result;
     }
 }
